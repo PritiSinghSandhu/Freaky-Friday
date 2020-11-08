@@ -1,0 +1,28 @@
+
+/*BODY*/
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 2em;
+  background: #fff;
+}
+
+h1 {
+  padding-left: 5%;
+}
+
+.text{
+  padding-left: 5%;
+}
+
+li{
+  list-style: none;
+}
+
+li a{
+  color: #000;
+}
+
+li a:visited{
+  color: #000;
+}
