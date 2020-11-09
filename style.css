@@ -22,27 +22,13 @@ nav{
   display: inline-flex;
   position: absolute;
   padding: 2% 2%;
-  z-index: 10;
-  left: 0;
-  right: 0;
-  top: 0;
-  max-height: 20%;
-}
-
-nav .logo2{
-  display: none;
-}
-
-nav .logo img {
-  width: 10%;
-  height: 80%;
+  max-height: 12%;
 }
 
 nav .logo {
   display: inline-flex;
   flex: 0.5;
-  color: black;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: bold;
   letter-spacing: 4px;
   text-transform: uppercase;
@@ -51,20 +37,17 @@ nav .logo {
 }
 
 nav .logo a {
-  font-size: 22px;
-  padding: 5px;
+  padding: 2%;
+  transition: all ease 0.5s;
 }
 
 nav .links {
   display: inline-flex;
-  float: right;
   flex: 0.6;
-  text-align: center;
   align-items: center;
 }
 
 nav .links li {
-  display: inline-block;
   list-style: none;
 }
 
@@ -72,10 +55,9 @@ nav a{
   color: black;
   font-size: 18px;
   font-weight: bold;
-  transition: all ease 0.5s;
-  text-decoration: none;
   padding: 15px;
-  transition-timing-function: ease-in-out;
+  text-decoration: none;
+  transition: all ease 0.5s;
   }
 
 nav a:visited {
@@ -85,28 +67,6 @@ nav a:visited {
 nav a:hover{
 	text-decoration: underline;
   background-color: #cc5200;
-}
-
-#nav-toggle {
-  position: absolute;
-  top: -100px;
-}
-
-nav .icon-burger {
-  display: none;
-  position: absolute;
-  right: 5%;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-nav .icon-burger .line {
-  width: 30px;
-  height: 5px;
-  background-color: #fff;
-  margin: 5px;
-  border-radius: 3px;
-  transition: all 3s ease-in-out;
 }
 
 #showcase {
@@ -121,6 +81,7 @@ nav .icon-burger .line {
 }
 
 .container{
+width: 100%;
 display: flex;
 }
 
@@ -128,28 +89,23 @@ display: flex;
 position: sticky;
 display: flex;
 flex-direction: column;
-flex: 1;
 height: 100vh;
 z-index: 1;
 top: 0;
-right: 0;
+padding: 0 1%;
 background-color: #000;
-overflow-x: hidden;
-overflow-y: hidden;
 text-align: center;
 justify-content: space-around;
-padding-bottom: 2%;
 }
 
 .side-nav a {
-position: sticky;
 color: #fff;
 text-decoration: none;
 font-size: 18px;
 text-transform: uppercase;
-transition: all ease 0.5s;
 list-style: none;
-padding: 15% 0;
+padding: 15% 1%;
+transition: all ease 0.5s;
 }
 
 .side-nav a:hover{
@@ -157,26 +113,14 @@ text-decoration: underline;
 background-color: #cc5200
 }
 
-.content {
-display: block;
-flex: 7;
-}
-
 .paragraph{
 height: 100vh;
-display: block;
-}
-
-#medination img {
-  flex: 0.5;
-  padding: 5% 3% 3% 3%;
 }
 
 h1 {
 text-transform: uppercase;
 text-align: center;
 font-size: 30px;
-margin: 0;
 padding-top: 4%;
 }
 
@@ -185,12 +129,14 @@ padding-top: 4%;
 }
 
 .text{
-  flex: 2;
   padding: 4% 0 3% 3%;
 }
 
+#medination img {
+padding: 5% 3% 3% 3%;
+}
+
 .video{
-  flex: 1;
   padding: 4% 3% 3% 3%;
 
 }
@@ -273,5 +219,5 @@ footer {
   background: #333;
   color: #fff;
   text-align: center;
-  padding: 10px;
+  padding: 0.5%;
 }
