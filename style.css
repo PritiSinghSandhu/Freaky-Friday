@@ -110,7 +110,7 @@ transition: all ease 0.5s;
 
 .side-nav a:hover{
 text-decoration: underline;
-background-color: #cc5200
+background-color: #cc5200;
 }
 
 .paragraph{
@@ -202,17 +202,20 @@ padding-top: 4%;
 }
 
 .thirdbox a{
-padding-top: 4%;
-color: #000;
+color: #cc5200;
+font-size: 18px;
+font-weight: bolder;
 text-decoration: none;
 }
 
 .thirdbox a:visited{
-color: #000;
+color: #cc5200;
 }
 
 .thirdbox a:hover{
+color: #000;
 text-decoration: underline;
+
 }
 
 footer {
